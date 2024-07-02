@@ -1,0 +1,10 @@
+name: Github actions masterclass session
+on: [push]
+
+jobs:
+  demo:
+    name: Demo step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test step
+        run: echo "Pipeline is ready to run!"
